@@ -1,11 +1,11 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager\Controllers;
+namespace Vaneetjoshi\LaravelFilemanager\Controllers;
 
 use Intervention\Image\Facades\Image as InterventionImageV2;
 use Intervention\Image\Laravel\Facades\Image as InterventionImageV3;
-use UniSharp\LaravelFilemanager\Events\ImageIsResizing;
-use UniSharp\LaravelFilemanager\Events\ImageWasResized;
+use Vaneetjoshi\LaravelFilemanager\Events\ImageIsResizing;
+use Vaneetjoshi\LaravelFilemanager\Events\ImageWasResized;
 
 class ResizeController extends LfmController
 {

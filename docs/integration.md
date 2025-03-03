@@ -1,5 +1,5 @@
 ## Note
-Check `vendor/unisharp/laravel-filemanager/src/views/demo.blade.php`, which already integrated all options from below.
+Check `vendor/vaneetjoshi/laravel-filemanager/src/views/demo.blade.php`, which already integrated all options from below.
 
 ## WYSIWYG Editor Integration:
 ### Option 1: CKEditor

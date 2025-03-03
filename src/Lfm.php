@@ -1,13 +1,13 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager;
+namespace Vaneetjoshi\LaravelFilemanager;
 
 use Illuminate\Contracts\Config\Repository as Config;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
-use UniSharp\LaravelFilemanager\Middlewares\CreateDefaultFolder;
-use UniSharp\LaravelFilemanager\Middlewares\MultiUser;
+use Vaneetjoshi\LaravelFilemanager\Middlewares\CreateDefaultFolder;
+use Vaneetjoshi\LaravelFilemanager\Middlewares\MultiUser;
 
 class Lfm
 {

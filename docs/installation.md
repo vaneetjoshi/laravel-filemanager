@@ -10,7 +10,7 @@
 1. Run these lines
 
     ```bash
-    composer require unisharp/laravel-filemanager
+    composer require vaneetjoshi/laravel-filemanager
     php artisan vendor:publish --tag=lfm_config
     php artisan vendor:publish --tag=lfm_public
     php artisan storage:link
@@ -22,7 +22,7 @@
 1. Install package
 
     ```bash
-    composer require unisharp/laravel-filemanager
+    composer require vaneetjoshi/laravel-filemanager
     ```
 
 1. (optional) Install required dependency with `v3.*` of `intervention/image`:
@@ -66,7 +66,7 @@
 
     ```php
     Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']], function () {
-        \UniSharp\LaravelFilemanager\Lfm::routes();
+        \Vaneetjoshi\LaravelFilemanager\Lfm::routes();
     });
     ```
 
@@ -80,7 +80,7 @@
 1. login and visit `/laravel-filemanager/demo`
 
 ## Installing alpha version
- * Run `composer require unisharp/laravel-filemanager:dev-master` to get the latest developer version.
+ * Run `composer require vaneetjoshi/laravel-filemanager:dev-master` to get the latest developer version.
 
 ## What's next
 

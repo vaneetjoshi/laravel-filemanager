@@ -1,16 +1,16 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager;
+namespace Vaneetjoshi\LaravelFilemanager;
 
 use Illuminate\Container\Container;
 use Intervention\Image\Facades\Image as InterventionImageV2;
 use Intervention\Image\Laravel\Facades\Image as InterventionImageV3;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
-use UniSharp\LaravelFilemanager\Events\FileIsUploading;
-use UniSharp\LaravelFilemanager\Events\FileWasUploaded;
-use UniSharp\LaravelFilemanager\Events\ImageIsUploading;
-use UniSharp\LaravelFilemanager\Events\ImageWasUploaded;
-use UniSharp\LaravelFilemanager\LfmUploadValidator;
+use Vaneetjoshi\LaravelFilemanager\Events\FileIsUploading;
+use Vaneetjoshi\LaravelFilemanager\Events\FileWasUploaded;
+use Vaneetjoshi\LaravelFilemanager\Events\ImageIsUploading;
+use Vaneetjoshi\LaravelFilemanager\Events\ImageWasUploaded;
+use Vaneetjoshi\LaravelFilemanager\LfmUploadValidator;
 
 class LfmPath
 {

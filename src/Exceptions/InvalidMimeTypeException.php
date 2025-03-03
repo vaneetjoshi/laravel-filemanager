@@ -1,6 +1,6 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager\Exceptions;
+namespace Vaneetjoshi\LaravelFilemanager\Exceptions;
 
 class InvalidMimeTypeException extends \Exception
 {

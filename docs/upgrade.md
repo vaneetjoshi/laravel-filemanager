@@ -5,7 +5,7 @@
   1. Run commands:
 
       ```bash
-      composer update unisharp/laravel-filemanager
+      composer update vaneetjoshi/laravel-filemanager
 
       php artisan vendor:publish --tag=lfm_view --force
       php artisan vendor:publish --tag=lfm_public --force

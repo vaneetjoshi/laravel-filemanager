@@ -3,16 +3,16 @@
 use Mockery as m;
 use Illuminate\Foundation\Testing\TestCase;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
-use UniSharp\LaravelFilemanager\Exceptions\DuplicateFileNameException;
-use UniSharp\LaravelFilemanager\Exceptions\EmptyFileException;
-use UniSharp\LaravelFilemanager\Exceptions\ExcutableFileException;
-use UniSharp\LaravelFilemanager\Exceptions\FileFailedToUploadException;
-use UniSharp\LaravelFilemanager\Exceptions\FileSizeExceedConfigurationMaximumException;
-use UniSharp\LaravelFilemanager\Exceptions\FileSizeExceedIniMaximumException;
-use UniSharp\LaravelFilemanager\Exceptions\InvalidExtensionException;
-use UniSharp\LaravelFilemanager\Exceptions\InvalidMimeTypeException;
-use UniSharp\LaravelFilemanager\LfmPath;
-use UniSharp\LaravelFilemanager\LfmUploadValidator;
+use Vaneetjoshi\LaravelFilemanager\Exceptions\DuplicateFileNameException;
+use Vaneetjoshi\LaravelFilemanager\Exceptions\EmptyFileException;
+use Vaneetjoshi\LaravelFilemanager\Exceptions\ExcutableFileException;
+use Vaneetjoshi\LaravelFilemanager\Exceptions\FileFailedToUploadException;
+use Vaneetjoshi\LaravelFilemanager\Exceptions\FileSizeExceedConfigurationMaximumException;
+use Vaneetjoshi\LaravelFilemanager\Exceptions\FileSizeExceedIniMaximumException;
+use Vaneetjoshi\LaravelFilemanager\Exceptions\InvalidExtensionException;
+use Vaneetjoshi\LaravelFilemanager\Exceptions\InvalidMimeTypeException;
+use Vaneetjoshi\LaravelFilemanager\LfmPath;
+use Vaneetjoshi\LaravelFilemanager\LfmUploadValidator;
 
 class LfmUploadValidatorTest extends TestCase
 {

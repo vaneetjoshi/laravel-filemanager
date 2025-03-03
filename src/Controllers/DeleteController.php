@@ -1,14 +1,14 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager\Controllers;
+namespace Vaneetjoshi\LaravelFilemanager\Controllers;
 
 use Illuminate\Support\Facades\Storage;
-use UniSharp\LaravelFilemanager\Events\FileIsDeleting;
-use UniSharp\LaravelFilemanager\Events\FileWasDeleted;
-use UniSharp\LaravelFilemanager\Events\FolderIsDeleting;
-use UniSharp\LaravelFilemanager\Events\FolderWasDeleted;
-use UniSharp\LaravelFilemanager\Events\ImageIsDeleting;
-use UniSharp\LaravelFilemanager\Events\ImageWasDeleted;
+use Vaneetjoshi\LaravelFilemanager\Events\FileIsDeleting;
+use Vaneetjoshi\LaravelFilemanager\Events\FileWasDeleted;
+use Vaneetjoshi\LaravelFilemanager\Events\FolderIsDeleting;
+use Vaneetjoshi\LaravelFilemanager\Events\FolderWasDeleted;
+use Vaneetjoshi\LaravelFilemanager\Events\ImageIsDeleting;
+use Vaneetjoshi\LaravelFilemanager\Events\ImageWasDeleted;
 
 class DeleteController extends LfmController
 {

@@ -1,6 +1,6 @@
-[![Latest Stable Version](https://poser.pugx.org/unisharp/laravel-filemanager/v/stable)](https://packagist.org/packages/unisharp/laravel-filemanager)
-[![Total Downloads](https://poser.pugx.org/unisharp/laravel-filemanager/downloads)](https://packagist.org/packages/unisharp/laravel-filemanager)
-[![License](https://poser.pugx.org/unisharp/laravel-filemanager/license)](https://packagist.org/packages/unisharp/laravel-filemanager)
+[![Latest Stable Version](https://poser.pugx.org/vaneetjoshi/laravel-filemanager/v/stable)](https://packagist.org/packages/vaneetjoshi/laravel-filemanager)
+[![Total Downloads](https://poser.pugx.org/vaneetjoshi/laravel-filemanager/downloads)](https://packagist.org/packages/vaneetjoshi/laravel-filemanager)
+[![License](https://poser.pugx.org/vaneetjoshi/laravel-filemanager/license)](https://packagist.org/packages/vaneetjoshi/laravel-filemanager)
 
 This is the document of v2 version, v1 document can be found here: [https://github.com/UniSharp/laravel-filemanager/tree/v1/docs](https://github.com/UniSharp/laravel-filemanager/tree/v1/docs)
 
